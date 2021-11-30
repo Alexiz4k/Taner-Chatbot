@@ -1,7 +1,5 @@
 import random
 import json
-import pickle
-import numpy as np
 import sys
 import os
 import time
@@ -45,12 +43,14 @@ reflections = json.loads(open('reflections.json').read())
 #resultados
 
 def chat():
-    print("Hi! I am a chatbot created by Analytics Vidhya for your service")
     chat = Chat(pairs, reflections)
     chat.converse()
+    if chat in pairs:
+        return random.choice(pairs)
 #initiate the conversation
 if __name__ == "__main__":
     chat()
+    talk(chat)
 
 
 
