@@ -1,17 +1,15 @@
 {
-  "yo soy"     : "tu eres",
-  "yo estaba"  : "tu estabas",
-  "yo"         : "tu",
-  "soy"        : "eres",
-  "yo"          : "usted",
-  "yo tengo"       : "tu tienes",
-  "lo hare"       : "lo haras",
-  "mi"         : "tu",
-  "tu eres"    : "yo soy",
-  "tu eras"    : "yo era",
-  "tu tienes"  : "yo tengo",
-  "tu"         : "mi",
-  "tus"        : "mis",
-  "tu"         : "yo"
-
+    "yo soy": "tú eres",
+    "yo estaba": "tú estabas",
+    "yo": "tú",
+    "soy": "eres",
+    "yo tengo": "tú tienes",
+    "lo haré": "lo harás",
+    "mi": "tu",
+    "tú eres": "yo soy",
+    "tú eras": "yo era",
+    "tú tienes": "yo tengo",
+    "tú": "mi",
+    "tus": "mis",
+    "tus": "mis"
 }
